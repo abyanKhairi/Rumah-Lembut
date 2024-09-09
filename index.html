@@ -9,7 +9,7 @@
     <title>Lembutkan</title>
 </head>
 
-<body class="bg-black">
+<body>
 
     <!-- Navbar -->
     <nav x-data="{ scrolled: false, open: false }" @scroll.window="scrolled = (window.scrollY > 50)"
@@ -64,11 +64,12 @@
             </div>
 
             <aside>
-                <div class="collapse  bg-base-200 my-5 text-black">
+                <div class="collapse  bg-base-200 my-5">
                     <input type="radio" name="my-accordion-1" />
-                    <div class="collapse-title md:text-2xl text-sm text-center ml-5 md:ml-0 font-bold ">Visi</div>
+                    <div class="collapse-title md:text-2xl text-black text-sm text-center ml-5 md:ml-0 font-bold ">Visi
+                    </div>
                     <div class="collapse-content">
-                        <ul class="list-disc ml-3 space-y-2 text-xs md:text-sm">
+                        <ul class="list-disc ml-3 space-y-2 text-xs md:text-sm text-black ">
                             <li>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, neque.</p>
                             </li>
@@ -130,7 +131,7 @@
 
 
     <!-- About  -->
-    <section id="About" class="pt-20 pb-5">
+    <section id="About" class="pt-20 pb-5 bg-black">
         <h2 class="text-white md:text-4xl text-2xl text-center font-medium pb-10">&lt;About/&gt;
         </h2>
         <hr style="width: 50%; border-top: 3px solid ;" class="text-white border-t-9 border-gray-800 py-14 mx-auto">
